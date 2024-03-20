@@ -7,19 +7,19 @@ Below are the key metrics analyzed using SparkSQL:
 
 1. **Average price for a four-bedroom house sold for each year**
 
-   ![Average Price for Four-Bedroom Houses](avg_price_bed4.png)
+   ![Average Price for Four-Bedroom Houses](Images/avg_price_bed4.png)
 
 2. **Average price of a home for each year the home was built, with three bedrooms and three bathrooms**
 
-   ![Average Price of Homes Built per Year with Three Bedrooms and Three Bathrooms](price_bed3_bath3_datebuilt.png)
+   ![Average Price of Homes Built per Year with Three Bedrooms and Three Bathrooms](Images/price_bed3_bath3_datebuilt.png)
 
 3. **Average price of a home for each year the home was built, with three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet**
 
-   ![Average Price of Homes Built per Year with Specific Criteria](avg_price_datebuilt_bed3_bath3_sqgte2000.png)
+   ![Average Price of Homes Built per Year with Specific Criteria](Images/avg_price_datebuilt_bed3_bath3_sqgte2000.png)
 
 4. **Average price of a home per "view" rating, with an average home price greater than or equal to $350,000**
 
-   ![Average Price of Homes per View Rating](avg_price_viewRating_price_gte350000.png)
+   ![Average Price of Homes per View Rating](Images/avg_price_viewRating_price_gte350000.png)
 
 
 
