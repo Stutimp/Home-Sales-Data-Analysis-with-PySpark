@@ -3,28 +3,23 @@
 
 In this assignment I have used the SparkSQL to determine key metrics about home sales data.Here I have used Spark to create temporary views, partition the data, cache my temporary table in order to expedite the queries time, and finally uncached and varified if the cached temporary table is already removed or not, in order to ensure the removal of any occupied spaces by cached data in the system.
 
-Here I have answered the following questions using SparkSQl:
+Below are the key metrics analyzed using SparkSQL:
 
-- What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
+1. **Average price for a four-bedroom house sold for each year**
 
-![avg_price_bed4.png](avg_price_bed4.png)
+   ![Average Price for Four-Bedroom Houses](avg_price_bed4.png)
 
+2. **Average price of a home for each year the home was built, with three bedrooms and three bathrooms**
 
-- What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
+   ![Average Price of Homes Built per Year with Three Bedrooms and Three Bathrooms](price_bed3_bath3_datebuilt.png)
 
-![price_bed3_bath3_datebuilt.png](avg_price_datebuilt_bed3_bath3_sqgte2000.png)
+3. **Average price of a home for each year the home was built, with three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet**
 
+   ![Average Price of Homes Built per Year with Specific Criteria](avg_price_datebuilt_bed3_bath3_sqgte2000.png)
 
-- What is the average price of a home for each year the home was built, that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
+4. **Average price of a home per "view" rating, with an average home price greater than or equal to $350,000**
 
-![avg_price_datebuilt_bed3_bath3_sqgte2000.png](avg_price_viewRating_price_gte350000.png)
-
-
-- What is the average price of a home per "view" rating having an average home price greater than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
-
-
-![avg_price_viewRating_price_gte350000.png](price_bed3_bath3_datebuilt.png)
-
+   ![Average Price of Homes per View Rating](avg_price_viewRating_price_gte350000.png)
 
 
 
