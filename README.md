@@ -1,7 +1,7 @@
 # Home_Sales
 ## Assignment on Big Data
 
-In this assignment I have used the SparkSQL to determine key metrics about home sales data.Here I have used Spark to create temporary views, partition the data, cache my temporary table in order to expedite the queries time, and finally uncahed and varified the cached the temporary table in order to ensure the removal any occupied spaces by cached data.
+In this assignment I have used the SparkSQL to determine key metrics about home sales data.Here I have used Spark to create temporary views, partition the data, cache my temporary table in order to expedite the queries time, and finally uncached and varified if the cached temporary table is already removed or not, in order to ensure the removal of any occupied spaces by cached data in the system.
 
 Here I have answered the following questions using SparkSQl:
 
