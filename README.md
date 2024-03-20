@@ -26,6 +26,8 @@ Here I have answered the following questions using SparkSQl:
 ![avg_price_viewRating_price_gte350000.png] (price_bed3_bath3_datebuilt.png)
 
 
+![alt text](avg_price_viewRating_price_gte350000.png)
+
 
 
 
